@@ -2,14 +2,13 @@
 
 int main(){
     std::cout << "hello world" << std::endl;
-    int a = 0;
-    int b = 1;
-    int sum;
+    int a = 0, b = 1;
+    int s = a + b;
     for (int i = 0; i <= 10; i++){
         std::cout << a << std::endl;
-        sum = a + b;
+        s = a + b;
         a = b;
-        b = sum;
+        b = s;
     }
     return 0;
 }
